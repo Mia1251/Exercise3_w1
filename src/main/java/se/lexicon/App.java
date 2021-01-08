@@ -10,11 +10,11 @@ public class App
 
         System.out.println("Enter your first number:");
         int number1 = scanner.nextInt();
+        System.out.println("Now choose an operation type: +. -, * or /");
+        String operationTypE= scanner.next();
         System.out.println("Enter your second number:");
         int number2 = scanner.nextInt();
 
-        System.out.println("Now choose an operation type: +. -, * or /");
-        String operationTypE= scanner.next();
         switch (operationTypE) {
 
             case "+":
